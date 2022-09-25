@@ -26,6 +26,14 @@
 .logo h4 {
     color: var(--primary-color);
     font-weight: 600;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo h4 span {
+    color: black;
+    text-align: right;
+    font-size: 16px;
 }
 
 .collapse {
@@ -598,6 +606,16 @@ footer .contact-form .form-control {
 }
 
 @media (max-width: 770px) {
+
+    .navbar {
+        flex-wrap: nowrap;
+    }
+
+    .logo h4 span {
+        color: black;
+        text-align: right;
+    }
+
     .banner .content img {
         width: 100%;
     }
