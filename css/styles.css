@@ -17,6 +17,10 @@
     justify-content: center;
 }
 
+.carousel-indicators li {
+    background-color: #015EEA;
+}
+
 /* Nav Styles */
 
 .navbar {
@@ -607,6 +611,11 @@ footer .contact-form .form-control {
 
 @media (max-width: 770px) {
 
+    .main {
+        max-width: 100vw;
+        margin: auto;
+    }
+
     .navbar {
         flex-wrap: nowrap;
     }
@@ -673,14 +682,35 @@ footer .contact-form .form-control {
         padding: 1rem;
     }
 
+    .about-us h2 {
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 48px;
+        margin-bottom: 1rem;
+    }
+
     .about-us p {
         width: 100%;
         line-height: 28px;
         margin-top: 0.5rem;
     }
 
+    .testimonials h2 {
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 48px;
+        margin-bottom: 1rem;
+    }
+
     .testimonial-card {
         margin-right: 2rem;
+    }
+
+    .faq h2 {
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 48px;
+        margin-bottom: 1rem;
     }
 
     .about {
@@ -688,8 +718,9 @@ footer .contact-form .form-control {
     }
 
     .about .about-text h2 {
-        font-size: 30px;
-        line-height: 50px;
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 48px;
         margin-bottom: 1rem;
     }
 
@@ -704,8 +735,9 @@ footer .contact-form .form-control {
     }
 
     .mission .mission-text h2 {
-        font-size: 30px;
-        line-height: 50px;
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 48px;
         margin-bottom: 1rem;
     }
 
@@ -713,6 +745,13 @@ footer .contact-form .form-control {
         width: 100vw;
         margin-left: -3rem;
         margin-top: -2rem;
+    }
+
+    .team h2 {
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 48px;
+        margin-bottom: 1rem;
     }
 
     .team .team-card {
@@ -727,8 +766,22 @@ footer .contact-form .form-control {
         padding: 2rem;
     }
 
+    footer p {
+        font-size: 14px;
+    }
+
     footer .footer .col-md-4 {
         margin-bottom: 2rem;
+    }
+
+    .footer-nav .icons {
+        margin-bottom: 2rem;
+    }
+
+    footer .contact-form .form-group i {
+        top: 12%;
+        font-size: 20px;
+        padding: 0.7rem;
     }
 }
 
