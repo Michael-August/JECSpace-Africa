@@ -403,6 +403,10 @@
     left: 13%;
 }
 
+.chibuike {
+    clip-path: circle();
+}
+
 .team .row .team-card h2 {
     font-weight: 700;
     font-size: 24px;
@@ -620,6 +624,10 @@ footer .contact-form .form-control {
         display: block;
     }
 
+    .collapse .contact-button {
+        margin-top: 1rem;
+    }
+
     .logo.mr {
         margin-right: 0rem;
     }
@@ -726,6 +734,7 @@ footer .contact-form .form-control {
         font-weight: 600;
         line-height: 48px;
         margin-bottom: 1rem;
+        text-align: center;
     }
 
     .about .row .about-img img {
@@ -741,6 +750,7 @@ footer .contact-form .form-control {
     .mission .mission-text h2 {
         font-size: 25px;
         font-weight: 600;
+        text-align: center;
         line-height: 48px;
         margin-bottom: 1rem;
     }
