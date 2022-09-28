@@ -1,10 +1,4 @@
 let navlinks = document.querySelectorAll('.nav-link')
-let contactForm = document.querySelector('.contactForm')
-
-contactForm.addEventListener('submit', (e) => {
-    e.preventDefault()
-    
-})
 
 navlinks.forEach(item => {
     item.addEventListener('click', (e) => {
