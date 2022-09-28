@@ -27,6 +27,10 @@
     font-size: 18px;
 }
 
+.logo img {
+    width: 70%;
+}
+
 .logo h4 {
     color: var(--primary-color);
     font-weight: 600;
@@ -382,12 +386,13 @@ legend {
     background-color: #F9F8FE;
 }
 
-.mission .mission-text h2 {
+.mission .row .mission-text .our-mission h2,
+.mission .mission-text .our-vision h2 {
     font-weight: 600;
     font-size: 36px;
     line-height: 54px;
     text-align: left;
-    margin-bottom: 2rem;
+    margin-bottom: 0.5rem;
 }
 
 .mission .mission-text p {
@@ -425,6 +430,7 @@ legend {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-bottom: 1rem;
 }
 
 .team .row .team-card .profile-holder {
@@ -493,6 +499,10 @@ footer > p {
     margin-top: 4rem;
     font-size: 20px;
     color: #5e5d5d;
+}
+
+footer .row .jecspace img {
+    margin-bottom: 1rem;
 }
 
 footer .row .jecspace p {
@@ -786,7 +796,8 @@ footer .contact-form .form-control {
         padding: 1rem;
     }
 
-    .mission .mission-text h2 {
+    .mission .row .mission-text .our-mission h2,
+    .mission .mission-text .our-vision h2 {
         font-size: 25px;
         font-weight: 600;
         text-align: center;
