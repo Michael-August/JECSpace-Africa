@@ -105,6 +105,10 @@
     color: #191A15;
 }
 
+.modal-dialog .modal-content .modal-body .form-group p {
+    margin-top: -1.5rem;
+}
+
 .modal-dialog .modal-content .modal-body .form-group .form-control:focus {
     outline: none;
     border-color: #ced4da;
