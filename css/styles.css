@@ -624,6 +624,10 @@ footer .contact-form .form-control {
     transition: all 0.5s;
 }
 
+.success {
+    margin: 6rem auto;
+}
+
 @media (max-width: 991px) {
     .banner {
         padding: 8rem 4rem;
