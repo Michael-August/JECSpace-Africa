@@ -1,18 +1,19 @@
-let navlinks = document.querySelectorAll('.nav-link')
+let navLinks = document.querySelectorAll('.nav-link')
 
-navlinks.forEach(item => {
-    item.addEventListener('click', (e) => {
-        item.classList.add('active')
-    })
-})
-
+// Navbar scroll effect
 window.addEventListener('scroll', () => {
     let navbar = document.querySelector('.navbar')
     navbar.classList.toggle('sticky', window.scrollY)
 })
 
+// active routes
+navLinks.forEach(link => {
+    if (link.href === window.location.href) {
+        link.classList.add('active')
+    }
+})
 
-
+// Swiper Slides
 let swiper = new Swiper(".slide-content", {
     slidesPerView: 3,
     spaceBetween: 30,
