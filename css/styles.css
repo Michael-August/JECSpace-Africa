@@ -468,15 +468,16 @@ legend {
     margin-bottom: 2rem;
 }
 
-.team .row .team-card .profile-holder img {
+.team .row .team-card .profile-holder .profile-pics {
+    width: 184px;
+    height: 184px;
+    border-radius: 50%;
     position: absolute;
-    top: 13%;
-    left: 13%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
-.chibuike {
-    clip-path: circle();
-}
 
 .team .row .team-card h2 {
     font-weight: 700;
@@ -641,7 +642,7 @@ footer .contact-form .form-control {
     justify-content: center;
     padding: 1rem 0;
     border: none;
-    box-shadow: 1px 0px 25px rgba(0, 0, 0, 0.5);
+    box-shadow: 1px 0px 25px rgba(0, 0, 0, 0.2);
 }
 
 .response-card h2 {
@@ -696,17 +697,10 @@ footer .contact-form .form-control {
         margin-bottom: 1rem;
     }
 
-    .team .row .team-card .profile-holder {
-        width: 150px;
-        height: 150px;
-        border-radius: 50%;
-    }
-
-    .team .row .team-card .profile-holder img {
-        position: absolute;
-        top: 10%;
-        left: 10%;
-        width: 80%;
+    .team .row .team-card .profile-holder .profile-pics {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
 
     .team .row .team-card h2 {
