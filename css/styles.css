@@ -160,7 +160,7 @@ legend {
     border-radius: 8px;
     width: 90%;
     text-align: center;
-    padding: 2rem 3rem;
+    padding: 2rem 0rem;
     box-shadow: 1px 0px 25px;
     margin: 0 auto;
     margin-top: -3rem;
@@ -169,7 +169,8 @@ legend {
 }
 
 .customers .customer-images {
-    width: 100%;
+    width: 20%;
+    margin-right: 2rem;
 }
 
 .customers h3 {
@@ -775,8 +776,13 @@ footer .contact-form .form-control {
     }
 
     .customers {
-        padding: 1rem 2rem;
+        padding: 1rem 0rem;
         margin-bottom: 2rem;
+    }
+
+    .customers .customer-images {
+        width: 18%;
+        margin-right: 1rem;
     }
 
     .customers h3 {
